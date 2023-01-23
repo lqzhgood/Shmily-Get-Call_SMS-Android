@@ -1,0 +1,33 @@
+{
+    "name": "AndroidBackup",
+    "version": "1.0.0",
+    "description": "此目录是通过安卓App导出的短信/通话记录，转换成 ${msg} 格式的工具",
+    "main": "logs.js",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "dayjs": "^1.9.3",
+        "lodash": "^4.17.20",
+        "xml2json": "^0.12.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "logs": "node logs.js",
+        "sms": "node sms.js",
+        "smss60": "node smsS60.js",
+        "all": "npm run logs & npm run sms & npm run smss60"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "nodemonConfig": {
+        "ignore": [
+            "input/*",
+            "dist/*"
+        ]
+    },
+    "engines": {
+        "node": ">=16.15.1",
+        "npm": ">=8.12.2"
+    }
+}
