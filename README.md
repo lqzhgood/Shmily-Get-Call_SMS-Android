@@ -9,6 +9,8 @@
 
 ## 使用
 
+### 0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
+
 ### 1.修改 config.js
 
 ```
