@@ -44,3 +44,11 @@
 S60 短信导出时不同于安卓一次导出所有短信，而是导出指定某人的短信。
 
 所以这里的短信都确定是本人，数据会打上 `numberIsTrue: true` 的标签,在 `Merger` 时不会被过滤掉
+
+## 感谢
+
+http://lqzhgood.github.io/Shmily/guide/other/thanks.html
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物
