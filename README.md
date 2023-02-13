@@ -2,12 +2,14 @@
 
 请先阅读 https://github.com/lqzhgood/Shmily
 
-此工具是将 导出的短信/通话记录，转换成 ${msg} 格式的工具 <br/>
+此工具是将 导出的短信/通话记录，转换成 `Shmily-Msg` 格式的工具 <br/>
 对结果仅去重和排序(按时间从小到大) <br/>
 
 安卓 App 使用的是 `超级备份专业版(com.idea.backup.smscontactspro)`，已在 tools 中提供 <br/>
 
 ## 使用
+
+### 0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
 
 ### 1.修改 config.js
 
