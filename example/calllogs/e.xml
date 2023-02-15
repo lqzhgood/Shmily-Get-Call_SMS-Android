@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alllogs count="5085">
+	<log number="13712341234" time="2020年11月17日 12:14:58" date="1605586498908" type="2" name="我是姓名" new="1" dur="0" alias="呼出挂断"/>
+	<log number="13712341234" time="2020年11月17日 12:14:32" date="1605586472593" type="2" name="我是姓名" new="1" dur="6" alias="呼出已接"/>
+	<log number="13712341234" time="2020年11月17日 12:13:11" date="1605586391125" type="2" name="我是姓名" new="1" dur="0" alias="呼出未接"/>
+	<log number="13712341234" time="2020年11月17日 12:12:12" date="1605586332852" type="3" name="我是姓名" new="0" dur="48" alias="呼入未接" />
+	<log number="13712341234" time="2020年11月17日 12:11:51" date="1605586311325" type="1" name="我是姓名" new="1" dur="7" alias="呼入已接" />
+	<log number="13712341234" time="2020年11月17日 12:11:12" date="1605586272905" type="5" name="我是姓名" new="1" dur="0" alias="呼入挂断" />
+	</alllogs>

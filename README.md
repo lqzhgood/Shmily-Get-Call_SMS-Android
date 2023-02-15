@@ -21,7 +21,7 @@
 
 ### 2. AndroidBackup 通讯记录（可选）
 
-通讯记录放入 `./input/logs/` 文件夹中,执行 `npm run logs`
+通讯记录放入 `./input/calllogs/` 文件夹中,执行 `npm run logs`
 
 ##### 注意
 

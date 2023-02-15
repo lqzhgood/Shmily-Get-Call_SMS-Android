@@ -6,13 +6,12 @@ const _ = require('lodash');
 const { logsToMsg } = require('./lib/conversion.js');
 const { checkUniq, emojiReplace } = require('./lib/utils');
 
-const INPUT_DIR = "./input";
-const OUTPUT_DIR = "./dist";
+const INPUT_DIR = './input';
+const OUTPUT_DIR = './dist';
 
-
-const logList = fs.readdirSync(path.join(INPUT_DIR, "/logs/"));
+const logList = fs.readdirSync(path.join(INPUT_DIR, '/calllogs/'));
 const logs = logList.reduce((pre, logFile) => {
-    const str = fs.readFileSync(path.join(INPUT_DIR, "/logs/", logFile), 'utf-8');
+    const str = fs.readFileSync(path.join(INPUT_DIR, '/calllogs/', logFile), 'utf-8');
     const xml = emojiReplace(str);
     const json = parser.toJson(xml, { object: true });
     return pre.concat(json.alllogs.log);
@@ -25,5 +24,4 @@ const result = _.sortBy(logsToMsg(uniqArr), 'ms');
 
 console.log('通话记录去重总长度', result.length);
 
-
-fs.writeFileSync(path.join(OUTPUT_DIR, "./callLogs_android.json"), JSON.stringify(result, null, 4));
+fs.writeFileSync(path.join(OUTPUT_DIR, './callLogs_android.json'), JSON.stringify(result, null, 4));

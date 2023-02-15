@@ -1,0 +1,104 @@
+[
+    {
+        "source": "CallLog",
+        "device": "Phone",
+        "type": "呼入挂断",
+        "direction": "come",
+        "sender": "13112341234",
+        "senderName": "我是姓名",
+        "receiver": "_19012341234",
+        "receiverName": "_",
+        "day": "2020-11-17",
+        "time": "12:11:12",
+        "ms": 1605586272905,
+        "$CallLog": {
+            "duration": 0
+        },
+        "msAccuracy": true
+    },
+    {
+        "source": "CallLog",
+        "device": "Phone",
+        "type": "呼入已接",
+        "direction": "come",
+        "sender": "13112341234",
+        "senderName": "我是姓名",
+        "receiver": "_19012341234",
+        "receiverName": "_",
+        "day": "2020-11-17",
+        "time": "12:11:51",
+        "ms": 1605586311325,
+        "$CallLog": {
+            "duration": 7
+        },
+        "msAccuracy": true
+    },
+    {
+        "source": "CallLog",
+        "device": "Phone",
+        "type": "呼入未接",
+        "direction": "come",
+        "sender": "13112341234",
+        "senderName": "我是姓名",
+        "receiver": "_19012341234",
+        "receiverName": "_",
+        "day": "2020-11-17",
+        "time": "12:12:12",
+        "ms": 1605586332852,
+        "$CallLog": {
+            "duration": 48
+        },
+        "msAccuracy": true
+    },
+    {
+        "source": "CallLog",
+        "device": "Phone",
+        "type": "呼出未接",
+        "direction": "go",
+        "sender": "_19012341234",
+        "senderName": "_",
+        "receiver": "13112341234",
+        "receiverName": "我是姓名",
+        "day": "2020-11-17",
+        "time": "12:13:11",
+        "ms": 1605586391125,
+        "$CallLog": {
+            "duration": 0
+        },
+        "msAccuracy": true
+    },
+    {
+        "source": "CallLog",
+        "device": "Phone",
+        "type": "呼出已接",
+        "direction": "go",
+        "sender": "_19012341234",
+        "senderName": "_",
+        "receiver": "13112341234",
+        "receiverName": "我是姓名",
+        "day": "2020-11-17",
+        "time": "12:14:32",
+        "ms": 1605586472593,
+        "$CallLog": {
+            "duration": 6
+        },
+        "msAccuracy": true
+    },
+    {
+        "source": "CallLog",
+        "device": "Phone",
+        "type": "呼出未接",
+        "direction": "go",
+        "sender": "_19012341234",
+        "senderName": "_",
+        "receiver": "13112341234",
+        "receiverName": "我是姓名",
+        "day": "2020-11-17",
+        "time": "12:14:58",
+        "ms": 1605586498908,
+        "$CallLog": {
+            "duration": 0
+        },
+        "msAccuracy": true
+    }
+]
